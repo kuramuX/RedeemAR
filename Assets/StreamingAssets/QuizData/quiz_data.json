@@ -1,0 +1,280 @@
+{
+    "lessons": [
+        {
+            "lessonName": "Lesson1",
+            "questions": [
+                {
+                    "questionText": "Sino ang naroon sa pasimula bago nilikha ang lahat?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Sino ang manlilikha ng langit at lupa, pati ng mga di-nakikita?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Ano ang mga bagay na walang hanggan—ang mga bagay na nakikita o ang mga bagay na di-nakikita?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Anu-ano ang mga walang hangang bagay na di-nakikita?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Sino ang nilalang ng Diyos ayon sa Kanyang larawan?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Sa Halamanan ng Eden, ano ang isang utos na ibinigay ng Diyos sa tao?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Dahil ang Diyos ang manlilikha sa lahat, sino ang may karapatang gumawa ng mga kautusan sa sangkatauhan at magpasiya kung paano maisasakatuparan ang mga bagay na ito?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Sino ang nagrebelde laban sa Diyos at sinira ang maayos na samahan sa langit at lupa?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Ano ang nangyari sa dragon at sa kanyang mga kampon?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Sino ang dragon?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                }
+            ]
+        },
+        {
+            "lessonName": "Lesson2",
+            "questions": [
+                {
+                    "questionText": "Ano ang iniutos ng Diyos kina Adan at Eba?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Sino ang ahas na nakipag-usap kay Eba?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Bakit kinain ni Eba ang pinagbabawal na bunga?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Bakit kinain ni Adan ang pinagbabawal na bunga?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Ano ang kanilang nalaman pagkatapos nilang magkasala?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Paano sinubukan nina Adan at Eba na takpan ang kanilang mga katawan?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Ano ang ginawa ng Diyos upang takpan ang kanilang kahubaran?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Alam ba ng Diyos na nagkasala sila? Sa palagay ninyo, bakit tinanong pa ng Diyos si Adan kung kumain siya ng pinagbabawal na bunga?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Ilang beses na nagkasala sina Adan at Eba?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Paano sila pinarusahan ng Diyos sa isa lamang kasalanan?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Kung pinarusahan ng Diyos sina Adan sa isa lamang kasalanan, ano ang sinasabi nito tungkol sa ating kasalanan?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Bago magkasala sina Adan, ano ang kaparusahan ng kasalanan ayon sa Diyos?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                }
+                
+            ]
+        },
+        {
+            "lessonName": "Lesson3",
+            "questions": [
+                {
+                    "questionText": "Sino ang unang dawalang anak na lalaki nina Adan at Eba?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Ano ang kanilang hanapbuhay?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Ano ang inihandog nila sa Diyos?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Tinanggap ba ng Diyos ang kanilang handog?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Sa palagay ninyo, bakit tinanggap ng Diyos ang handog ni Abel, ngunit tinanggihan Niya ang handog ni Cain?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Sa palagay ninyo, malulugod ba ang Diyos kung iaalay natin ang ating pinakamabuti o pinakamahalagang bagay sa kanya?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Ano ang babala ng Diyos kay Cain? Sa halip, ano ang ginawa ni Cain?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Alam ba ng Diyos na pinatay ni Cain ang kanyang kabatid? Sa palagay ninyo, bakit tinanong siya ng Diyos kung saan ang kanyang kapatid?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Paano pinarusahan ng Diyos si Cain?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Paano ipinakita ng Diyos ang awa o habag kay Cain?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Kahit inihandog ni Cain na may mabuting intensyon, tinanggihan siya ng Diyos, pati ang kanyang handog. May posibilidad ba na nag-aalay ang mga tao sa Diyos na may mabuting intensyon, ngunit tinatanggihan din sila ng Diyos?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Madalas sinasabi ng ating relihiyon kung ano ang mga alay na dapat ihandog natin sa Diyos. Ano ang mga alay na sinasabi ng iyong relihiyon na dapat ihandog ninyo sa Diyos?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                }
+            ]
+        },
+        {
+            "lessonName": "Lesson4",
+            "questions": [
+                {
+                    "questionText": "Nasiyahan ba ang Diyos sa ginagawa ng mga tao sa panahon ni Noe?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Hindi ba pinansin ng Diyos ang kanilang kasalanan?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Paano pinarusahan ng Diyos ang mga tao sa kanilang kasalanan?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Sa mga nakaraang kuwento, paano pinarusahan ng Diyos ang tao sa kanilang kasalanan?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Noong sinabi ng Diyos na babahain Niya ang buong daigdig, naniwala ba si Noe at ang kanyang pamilya? Paano natin nalaman?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Ilang paraan ang ibinigay ng Diyos sa mga tao upang maligtas sila sa baha?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Mayroon bang nakaligtas sa baha sa pamamagitan ng kanilang sariling sikap o ng kanilang mabubuting gawa?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Pagkatapos ng baha, anong uri ng alay ang inihandog ni Noe sa Diyos? Nasiyahan ba ang Diyos sa mga alay ni Noe?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Ano ang natutunan natin tungkol sa Diyos sa pamamagitan ng kuwentong ito?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                }
+            ]
+        },
+        {
+            "lessonName": "Lesson5",
+            "questions": [
+                {
+                    "questionText": "Ano ang ginawa ni Abram ng inutusan siya ng Diyos na lisanin niya ang kanyang bayan at kamag-anak at pumunta siya sa bayang ituturo ng Diyos sa kanya?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Kailan naging mahina ang pananampalataya ni Abram at paano siyang nagkasala?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Noong nangako ang Diyos kay Abram na magiging kalasag at mag-iingat sa kanya at bibigyan siya ng napakalaking gantimpala, ano ang inisip ni Abram?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Ano ang ipinangako ng Diyos kay Abram?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Sumampalataya ba si Abram na tutuparin ng Diyos ang Kanyang pangako?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Basahin ang Genesis 15:7. Noong sumampalataya si Abram sa Diyos, ano ang ginawa ng Diyos?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 2
+                },
+                {
+                    "questionText": "Noong nangako ang Diyos kay Abram na darami ang kanyang angkan kasingrami ng mga bituin, wala pang anak si Abram. Baog si Sarai at matanda na sila. Lumipas ang panahon na pwede pa silang magka-anak. Si Abram ay 80 na taon at si Sarai ay 70. Ang pananampalataya ba ni Abram ay nakabase sa kakayahan niya bilang tao o naniwala siya sa kapangyarihan ng Diyos at sa Kanyang pangako lamang?",
+                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "correctOptionIndex": 1
+                }
+            ]
+        }
+    ]
+}
