@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Lesson5.unity
     guid: 27e46f2eed398df429c74bea4eb5efa8
+  - enabled: 1
+    path: Assets/6k/Scene/Aralin1.unity
+    guid: 526e81da6fa4b9d43b6d75e8f6958e4c
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c29b3f07ad89cdf4f81443f825860a25, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ba730c3f953f08d4998cfeff52776625, type: 2}
