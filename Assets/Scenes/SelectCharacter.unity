@@ -238,7 +238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342.58823, y: 193.94118}
+  m_AnchoredPosition: {x: -342.58823, y: 167.9524}
   m_SizeDelta: {x: 85.93, y: 57.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &59415535
@@ -574,6 +574,7 @@ GameObject:
   - component: {fileID: 283060355}
   - component: {fileID: 283060354}
   - component: {fileID: 283060353}
+  - component: {fileID: 283060356}
   m_Layer: 0
   m_Name: Robot
   m_TagString: Untagged
@@ -657,6 +658,18 @@ MonoBehaviour:
           m_StringArgument: robot
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 283060356}
+        m_TargetAssemblyTypeName: LoadSceneOnClick, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &283060354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -695,6 +708,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283060351}
   m_CullTransparentMesh: 1
+--- !u!114 &283060356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283060351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e8f975b245b4c4ea128dcb1a8999a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Aralin1
 --- !u!1 &308487515
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,7 +924,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.78125
+  orthographic size: 4.2289886
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -983,7 +1009,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -185}
+  m_AnchoredPosition: {x: 0, y: -159.01123}
   m_SizeDelta: {x: 154.79, y: 56.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &608295736
@@ -1352,7 +1378,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 130.88235}
+  m_AnchoredPosition: {x: 0, y: 104.893585}
   m_SizeDelta: {x: 503.03, y: 79.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1151699256
@@ -1424,6 +1450,7 @@ GameObject:
   - component: {fileID: 1250498076}
   - component: {fileID: 1250498075}
   - component: {fileID: 1250498074}
+  - component: {fileID: 1250498077}
   m_Layer: 0
   m_Name: Girl
   m_TagString: Untagged
@@ -1507,6 +1534,18 @@ MonoBehaviour:
           m_StringArgument: girl
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1250498077}
+        m_TargetAssemblyTypeName: LoadSceneOnClick, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1250498075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1545,6 +1584,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250498072}
   m_CullTransparentMesh: 1
+--- !u!114 &1250498077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250498072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e8f975b245b4c4ea128dcb1a8999a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Aralin1
 --- !u!1 &1333487000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,7 +1755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e8f975b245b4c4ea128dcb1a8999a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ARScanner
+  sceneName: Aralin1
 --- !u!1 &1334528735
 GameObject:
   m_ObjectHideFlags: 0

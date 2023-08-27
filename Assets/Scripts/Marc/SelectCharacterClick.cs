@@ -20,12 +20,15 @@ public class SelectCharacterClick : MonoBehaviour
         {
             case "boy":
                 imageToUpdate.sprite = boySprite;
+                PlayerPrefs.SetString("Character", "boy");
                 break;
             case "girl":
                 imageToUpdate.sprite = girlSprite;
+                PlayerPrefs.SetString("Character", "girl");
                 break;
             case "robot":
                 imageToUpdate.sprite = robotSprite;
+                PlayerPrefs.SetString("Character", "robot");
                 break;
             default:
                 Debug.LogWarning("Unknown button name: " + buttonName);
