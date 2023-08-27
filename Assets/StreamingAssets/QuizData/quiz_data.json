@@ -5,53 +5,78 @@
             "questions": [
                 {
                     "questionText": "Sino ang naroon sa pasimula bago nilikha ang lahat?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 0
+                    "options": ["A. Tao", "B. Diyos", "C. Halaman", "D. Dragon"],
+                    "correctOptionIndex": 1
                 },
                 {
                     "questionText": "Sino ang manlilikha ng langit at lupa, pati ng mga di-nakikita?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 1
-                },
-                {
-                    "questionText": "Ano ang mga bagay na walang hanggan—ang mga bagay na nakikita o ang mga bagay na di-nakikita?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 1
-                },
-                {
-                    "questionText": "Anu-ano ang mga walang hangang bagay na di-nakikita?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 3
-                },
-                {
-                    "questionText": "Sino ang nilalang ng Diyos ayon sa Kanyang larawan?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 1
-                },
-                {
-                    "questionText": "Sa Halamanan ng Eden, ano ang isang utos na ibinigay ng Diyos sa tao?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 2
-                },
-                {
-                    "questionText": "Dahil ang Diyos ang manlilikha sa lahat, sino ang may karapatang gumawa ng mga kautusan sa sangkatauhan at magpasiya kung paano maisasakatuparan ang mga bagay na ito?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 3
-                },
-                {
-                    "questionText": "Sino ang nagrebelde laban sa Diyos at sinira ang maayos na samahan sa langit at lupa?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "options": ["A. Diyos", "B. Isda", "C. Ibon", "D. Tao"],
                     "correctOptionIndex": 0
                 },
                 {
+                    "questionText": "Ano ang mga bagay na walang hanggan?",
+                    "options": ["A. Ang mga bagay na nakikita", "B. Ang mga bagay na 'di nakikita", "C. Lahat ay tama", "D. Wala sa nabanggit"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Alin sa mga sumusunod ang di-nakikita?",
+                    "options": ["A. Diyos", "B. Langit", "C. Impyerno", "D. Lahat ay tama"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Sino ang nilalang ng Diyos ayon sa kanyang larawan?",
+                    "options": ["A. Hayop", "B. Isda", "C. Ibon", "D. Tao"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Saan inilagay ng Diyos ang tao?",
+                    "options": ["A. Halamanan ng Eden", "B. Karagatan", "C. Kabundukan", "D. Kagubatan"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Anong meron ang Diyos at ang tao noon?",
+                    "options": ["A. Malapit na relasyon", "B. Malayong relasyon", "C. Walang tamang sagot", "D. Lahat ay tama"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Sa Halamanan ng Eden, ano ang isang utos na ibinigay ng Diyos sa tao?",
+                    "options": ["A. Kainin ang bunga na nagbibigay kaalaman sa Mabuti at Masama", "B. Huwag kainin ang bunga na nagbibigay kaalaman sa Mabuti at Masama", "C. Mag-alaga ng mga hayop", "D. Linisin ang hardin ng Eden"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Anong mangyayari sa tao kapag kumain ng bung ana ipinagbabawal ng Diyos?",
+                    "options": ["A. Sila ay mabubusog", "B. Sila ay mamamatay", "C. Sila ay mabubuhay", "D. Lahat ay tama"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Sino ang Makapangyarihan sa lahat?",
+                    "options": ["A. Tao", "B. Diyos", "C. Ibon", "D. Dragon"],
+                    "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Sino ang nagrebelde laban sa Diyos at sinira ang maayos na samahan sa langit at lupa?",
+                    "options": ["A. Tao", "B. Hayop", "C. Halaman", "D. Dragon"],
+                    "correctOptionIndex": 3
+                },
+                {
                     "questionText": "Ano ang nangyari sa dragon at sa kanyang mga kampon?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "options": ["A. Itinapon sa lupa", "B. Itinapon sa tubig", "C. Itinapon sa kalawakan", "D. Walang tamang sagot"],
                     "correctOptionIndex": 0
                 },
                 {
                     "questionText": "Sino ang dragon?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "options": ["A. Adan", "B. Miguel", "C. Eva", "D. Satanas"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Sino ang nakipaglaban sa dragon?",
+                    "options": ["A. Adan", "B. Miguel", "C. Eva", "D. Satanas"],
                     "correctOptionIndex": 1
+                },
+                {
+                    "questionText": "Sino ang mandaraya ng sanlibutan?",
+                    "options": ["A. Tao", "B. Hayop", "C. Halaman", "D. Dragon"],
+                    "correctOptionIndex": 3
                 }
             ]
         },

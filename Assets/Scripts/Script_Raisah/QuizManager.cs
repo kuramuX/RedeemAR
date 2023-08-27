@@ -1,15 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 using System.Collections.Generic;
-using System.IO;
-using UnityEngine.SceneManagement;
 using TMPro;
+using System.Collections;
+using System.IO; 
 
 public class QuizManager : MonoBehaviour
 {
     public TextMeshProUGUI questionText;
     public List<Button> optionButtons;
-    public QuizResultPopup resultPopup; // Assign in Inspector
+    public QuizResultPopup resultPopup;
 
     private List<Question> questions;
     private int currentQuestionIndex = 0;
@@ -18,23 +19,37 @@ public class QuizManager : MonoBehaviour
     void Start()
     {
         questionText = GameObject.Find("questionText").GetComponent<TextMeshProUGUI>();
-        LoadQuestions();
-        LoadQuestion(currentQuestionIndex);
+        StartCoroutine(LoadQuestionsCoroutine());
     }
 
-    void LoadQuestions()
+    IEnumerator LoadQuestionsCoroutine()
     {
         string selectedLesson = PlayerPrefs.GetString("SelectedLesson");
         string jsonPath = Path.Combine(Application.streamingAssetsPath, "QuizData/quiz_data.json");
-        string jsonData = File.ReadAllText(jsonPath);
-        QuizData quizData = JsonUtility.FromJson<QuizData>(jsonData);
 
-        foreach (var lesson in quizData.lessons)
+        using (UnityWebRequest www = UnityWebRequest.Get(jsonPath))
         {
-            if (lesson.lessonName == selectedLesson)
+            yield return www.SendWebRequest();
+
+            if (www.result != UnityWebRequest.Result.Success)
             {
-                questions = lesson.questions;
-                break;
+                Debug.LogError("Error loading JSON: " + www.error);
+            }
+            else
+            {
+                string jsonData = www.downloadHandler.text;
+                QuizData quizData = JsonUtility.FromJson<QuizData>(jsonData);
+
+                foreach (var lesson in quizData.lessons)
+                {
+                    if (lesson.lessonName == selectedLesson)
+                    {
+                        questions = lesson.questions;
+                        break;
+                    }
+                }
+
+                LoadQuestion(currentQuestionIndex);
             }
         }
     }
@@ -55,7 +70,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            resultPopup.ShowResult(totalCorrectAnswers, true); // Show result pop-up on last question
+            resultPopup.ShowResult(totalCorrectAnswers, true);
         }
     }
 
@@ -72,7 +87,7 @@ public class QuizManager : MonoBehaviour
                 if (selectedOption == correctOption)
                 {
                     totalCorrectAnswers++;
-                    optionButtons[i].image.color = Color.green;
+                    optionButtons[i].image.color = Color.yellow;
                 }
                 else
                 {
@@ -82,7 +97,7 @@ public class QuizManager : MonoBehaviour
                         string correctButtonText = optionButtons[j].GetComponentInChildren<TextMeshProUGUI>().text;
                         if (correctButtonText == correctOption)
                         {
-                            optionButtons[j].image.color = Color.green;
+                            optionButtons[j].image.color = Color.yellow;
                             break;
                         }
                     }
@@ -91,13 +106,13 @@ public class QuizManager : MonoBehaviour
             optionButtons[i].interactable = false;
         }
 
-        if (currentQuestionIndex == questions.Count - 1) // Check if it's the last question
+        if (currentQuestionIndex == questions.Count - 1)
         {
-            resultPopup.ShowResult(totalCorrectAnswers, true); // Show result pop-up on last question
+            resultPopup.ShowResult(totalCorrectAnswers, true);
         }
         else
         {
-            Invoke("LoadNextQuestion", 2f); // Load next question after 2 seconds
+            Invoke("LoadNextQuestion", 2f);
         }
     }
 
@@ -116,7 +131,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            resultPopup.ShowResult(totalCorrectAnswers, true); // Show result pop-up on last question
+            resultPopup.ShowResult(totalCorrectAnswers, true);
         }
     }
 }
