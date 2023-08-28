@@ -1,21 +1,26 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class IntroScript : MonoBehaviour
 {
-    public float wait_time = 5f;
+    public VideoPlayer videoPlayer;
+    public float wait_time = 7f;  // This can be kept if you want a fixed duration
+
     void Start()
     {
-        StartCoroutine(wait());
+        videoPlayer.loopPointReached += OnVideoFinished;  // Subscribe to the loopPointReached event
+        videoPlayer.Play();  // Play the video
     }
 
-    IEnumerator wait()
+    void OnVideoFinished(VideoPlayer vp)
     {
-        yield return new WaitForSeconds(wait_time);
+        LoadNextScene();
+    }
 
+    void LoadNextScene()
+    {
         SceneManager.LoadScene(1);
     }
-
 }

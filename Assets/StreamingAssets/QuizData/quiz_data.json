@@ -44,7 +44,7 @@
                     "correctOptionIndex": 1
                 },
                 {
-                    "questionText": "Anong mangyayari sa tao kapag kumain ng bung ana ipinagbabawal ng Diyos?",
+                    "questionText": "Anong mangyayari sa tao kapag kumain ng bunga na ipinagbabawal ng Diyos?",
                     "options": ["A. Sila ay mabubusog", "B. Sila ay mamamatay", "C. Sila ay mabubuhay", "D. Lahat ay tama"],
                     "correctOptionIndex": 1
                 },
@@ -85,63 +85,78 @@
             "questions": [
                 {
                     "questionText": "Ano ang iniutos ng Diyos kina Adan at Eba?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 0
+                    "options": ["A. Kainin ang bunga na nagbibigay kaalaman sa Mabuti at Masama", "B. Huwag kainin ang bunga na nagbibigay kaalaman sa Mabuti at Masama", "C. Mag-alaga ng mga hayop", "D. Linisin ang hardin ng Eden"],
+                    "correctOptionIndex": 1
                 },
                 {
                     "questionText": "Sino ang ahas na nakipag-usap kay Eba?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 1
+                    "options": ["A. Adan", "B. Miguel", "C. Eva", "D. Satanas"],
+                    "correctOptionIndex": 3
                 },
                 {
                     "questionText": "Bakit kinain ni Eba ang pinagbabawal na bunga?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 2
+                    "options": ["A. Nilinlang siya ng ahas", "B. Naniwala siya sa kasinungalingan ni Satanas", "C. Sa tingin niya ay masarap ang bunga", "D. Lahat ay tama"],
+                    "correctOptionIndex": 3
                 },
                 {
                     "questionText": "Bakit kinain ni Adan ang pinagbabawal na bunga?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 3
+                    "options": ["A. Dahil kinain din niya ang bunga.", "B. Dahil wala lang siyang magawa.", "C. Dahil nainggit siya kay Eva.", "D. Walang tamang sagot."],
+                    "correctOptionIndex": 0
                 },
                 {
                     "questionText": "Ano ang kanilang nalaman pagkatapos nilang magkasala?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 3
+                    "options": ["A. Sila'y naging Diyos", "B. Sila'y nabusog", "C. Hubad sila", "D. Magaling sila"],
+                    "correctOptionIndex": 2
                 },
                 {
                     "questionText": "Paano sinubukan nina Adan at Eba na takpan ang kanilang mga katawan?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "options": ["A. Nagtago sila sa tubig", "B. Bumili sila ng damit", "C. Nagtago sila sa bato", "D. Nagtahi sila ng damit na yari sa dahon"],
+                    "correctOptionIndex": 3
+                },
+                {
+                    "questionText": "Sapat ba ang damit na dahon upang takpan ang kanilang sarili?",
+                    "options": ["A. Oo, ito ay sapat", "B. Hindi ito sapat", "C. Depende ito kila Adan at Eva", "D. Walang tamang sagot"],
                     "correctOptionIndex": 1
                 },
                 {
-                    "questionText": "Ano ang ginawa ng Diyos upang takpan ang kanilang kahubaran?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 1
+                    "questionText": "Alam ba ng Diyos na nagkasala sila?",
+                    "options": ["A. Oo", "B. Hindi", "C. Parehong tama", "D. Wala sa nabanggit"],
+                    "correctOptionIndex": 0
                 },
                 {
-                    "questionText": "Alam ba ng Diyos na nagkasala sila? Sa palagay ninyo, bakit tinanong pa ng Diyos si Adan kung kumain siya ng pinagbabawal na bunga?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 2
+                    "questionText": "Bakit tinanong pa ng Diyos si Adan kung kumain siya ng pinagbabawal na bunga?",
+                    "options": ["A. Nais ng Diyos na aminin ni Adan na nagkasala sya", "B. Hindi alam ng Diyos ang nangyari", "C. Hindi sumasagot si Eva", "D. Walang tamang sagot"],
+                    "correctOptionIndex": 0
                 },
                 {
                     "questionText": "Ilang beses na nagkasala sina Adan at Eba?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 3
+                    "options": ["A. Isa", "B. Dalawa", "C. Tatlo", "D. Marami"],
+                    "correctOptionIndex": 0
                 },
                 {
-                    "questionText": "Paano sila pinarusahan ng Diyos sa isa lamang kasalanan?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
+                    "questionText": "Ano ang parusa ng Diyos sa ahas?",
+                    "options": ["A. Siya'y maghihirap sa panganganak", "B. Sa hirap ng pagbubungkal, pagkakain niya magmumula", "C. Siya'y gagapang", "D. Siya'y lilipad nang walang katapusan"],
                     "correctOptionIndex": 2
                 },
                 {
-                    "questionText": "Kung pinarusahan ng Diyos sina Adan sa isa lamang kasalanan, ano ang sinasabi nito tungkol sa ating kasalanan?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 3
+                    "questionText": "Ano ang parusa ng Diyos kay Eba?",
+                    "options": ["A. Siya'y maghihirap sa panganganak", "B. Sa hirap ng pagbubungkal, pagkakain niya magmumula", "C. Siya'y gagapang", "D. Siya'y lilipad nang walang katapusan"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Ano ang parusa ng Diyos kay Adan?",
+                    "options": ["A. Siya'y maghihirap sa panganganak", "B. Sa hirap ng pagbubungkal, pagkakain niya magmumula", "C. Siya'y gagapang", "D. Siya'y lilipad nang walang katapusan"],
+                    "correctOptionIndex": 1
                 },
                 {
                     "questionText": "Bago magkasala sina Adan, ano ang kaparusahan ng kasalanan ayon sa Diyos?",
-                    "options": ["Option A", "Option B", "Option C", "Option D"],
-                    "correctOptionIndex": 2
+                    "options": ["A. Kamatayan", "B. Kasiyahan", "C. Kalakasan", "D. Kagandahan"],
+                    "correctOptionIndex": 0
+                },
+                {
+                    "questionText": "Ano ang ginawa ng Diyos upang takpan ang kanilang kahubaran?",
+                    "options": ["A. Iginawa sila ng damit na yari sa dahon.", "B. Iginawa sila ng damit na yari sa balahibo.", "C. Iginawa sila ng damit na yari sa balat ng hayop.", "D. Wala siyang ginawa"],
+                    "correctOptionIndex": 3
                 }
                 
             ]

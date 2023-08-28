@@ -4,7 +4,7 @@ using UnityEngine.Networking;
 using System.Collections.Generic;
 using TMPro;
 using System.Collections;
-using System.IO; 
+using System.IO;
 
 public class QuizManager : MonoBehaviour
 {
@@ -45,6 +45,7 @@ public class QuizManager : MonoBehaviour
                     if (lesson.lessonName == selectedLesson)
                     {
                         questions = lesson.questions;
+                        ShuffleQuestions();  // Shuffle the questions
                         break;
                     }
                 }
@@ -132,6 +133,20 @@ public class QuizManager : MonoBehaviour
         else
         {
             resultPopup.ShowResult(totalCorrectAnswers, true);
+        }
+    }
+
+    private void ShuffleQuestions()
+    {
+        System.Random rng = new System.Random();
+        int n = questions.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = rng.Next(n + 1);
+            Question value = questions[k];
+            questions[k] = questions[n];
+            questions[n] = value;
         }
     }
 }
